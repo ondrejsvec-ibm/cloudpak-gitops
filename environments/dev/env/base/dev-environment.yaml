@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Namespace
 metadata:
   annotations:
-    app.openshift.io/vcs-uri: https://github.ibm.com/Ondrej-Svec2/gitops?ref=main
+    app.openshift.io/vcs-uri: https://github.com/ondrejsvec-ibm/cloudpak-gitops?ref=main
   creationTimestamp: null
   name: dev
 spec: {}

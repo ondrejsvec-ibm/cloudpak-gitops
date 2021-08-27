@@ -31,7 +31,7 @@ spec:
         - name: serviceaccount.argocd_application_controller
           value: {{.Values.serviceaccount.argocd_application_controller}}
     path: config/cloudpaks/cp4i/operators
-    repoURL: https://github.ibm.com/Ondrej-Svec2/gitops
+    repoURL: https://github.com/ondrejsvec-ibm/cloudpak-gitops
   syncPolicy: {}
 status:
   health: {}

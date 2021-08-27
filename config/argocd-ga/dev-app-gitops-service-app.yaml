@@ -16,7 +16,7 @@ spec:
   project: default
   source:
     path: environments/dev/apps/app-gitops-service/overlays
-    repoURL: https://github.ibm.com/Ondrej-Svec2/gitops
+    repoURL: https://github.com/ondrejsvec-ibm/cloudpak-gitops
   syncPolicy:
     automated:
       prune: true
