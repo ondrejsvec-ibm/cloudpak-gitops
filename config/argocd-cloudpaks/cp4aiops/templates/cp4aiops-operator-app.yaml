@@ -29,7 +29,7 @@ spec:
         - name: serviceaccount.argocd_application_controller
           value: {{.Values.serviceaccount.argocd_application_controller}}
     path: config/cloudpaks/cp4aiops/operators
-    repoURL: https://github.com/IBM/cloudpak-gitops.git
+    repoURL: https://github.ibm.com/Ondrej-Svec2/gitops
   syncPolicy: {}
 status:
   health: {}

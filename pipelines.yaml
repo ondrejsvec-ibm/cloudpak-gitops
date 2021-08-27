@@ -28,5 +28,5 @@ environments:
       - github-push-binding
       template: app-ci-template
 - name: stage
-gitops_url: https://github.com/IBM/cloudpak-gitops.git
+gitops_url: https://github.ibm.com/Ondrej-Svec2/gitops
 version: 1

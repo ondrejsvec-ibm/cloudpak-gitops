@@ -33,7 +33,7 @@ spec:
         - name: storageclass.rwx.effective
           value: {{.Values.storageclass.rwx.effective}}
     path: config/cloudpaks/cp4aiops/resources
-    repoURL: https://github.com/IBM/cloudpak-gitops.git
+    repoURL: https://github.ibm.com/Ondrej-Svec2/gitops
   syncPolicy: {}
 status:
   health: {}

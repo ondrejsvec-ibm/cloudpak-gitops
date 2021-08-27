@@ -33,7 +33,7 @@ spec:
         - name: argocd_app_namespace
           value: ${ARGOCD_APP_NAMESPACE}
     path: config/argocd-cloudpaks/cp-shared
-    repoURL: https://github.com/IBM/cloudpak-gitops.git
+    repoURL: https://github.ibm.com/Ondrej-Svec2/gitops
   syncPolicy:
     automated:
       prune: true
